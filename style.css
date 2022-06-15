@@ -1,15 +1,21 @@
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.header {
+header {
+    background-color: #1F2937;
+    padding: 1em 13em;
+}
+
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #1F2937;
-    
 }
 
+/* NAVIGATION */
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -23,10 +29,57 @@ ul {
     list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
-    
+}
+
+.secondary,
+a:link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* WELCOME */
+
+.welcome {
+    padding: 7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.welcome .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.welcome .right {
+    flex-shrink: 0;
+    width: 50%;
 }
 
 .hero {
-    color: pink;
-    background-color: #1F2937;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+button {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.welcome button {
+    border: none;
+}
+
+.image {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 215px;
 }
