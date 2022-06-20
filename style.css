@@ -148,5 +148,45 @@ main h2 {
     color: #1f2937;
 }
 
+/* CALL TO ACTION SECTION */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 13em;
+}
+.callToAction {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 8em;
+    border-radius: 12px;
+    color: #E5E7EB;
+    gap: 6em;
+}
+
+.callToAction p{
+    font-size: 12px;
+}
+
+.left-caption {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.signUp-btn {
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+}
 
 
+/* FOOTER SECTION */
+
+footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 2em 13em;
+}
